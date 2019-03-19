@@ -221,6 +221,5 @@
     font-family: 'Tiempos Headline';
     font-weight: 700;
     font-style: normal;
-    src: url("https://armandoaffonso.github.io/fonts/TiemposHeadlineWeb-Bold.eot");
-    src: url("https://armandoaffonso.github.io/fonts/TiemposHeadlineWeb-Bold.eot?#iefix") format("embedded-opentype"), url("https://armandoaffonso.github.io/fonts/TiemposHeadlineWeb-Bold.woff") format("woff"), url("https://armandoaffonso.github.io/fonts/TiemposHeadlineWeb-Bold.woff2") format("woff2")
+    src: local('Tiempos Headline'), local('TiemposHeadlineWeb-Bold'), url("https://armandoaffonso.github.io/fonts/TiemposHeadlineWeb-Bold.woff2") format("woff2")
 }
