@@ -221,6 +221,6 @@
     font-family: 'Tiempos Headline';
     font-weight: 700;
     font-style: normal;
-    src: url("TiemposHeadlineWeb-Bold.eot");
-    src: url("TiemposHeadlineWeb-Bold.eot?#iefix") format("embedded-opentype"), url("TiemposHeadlineWeb-Bold.woff") format("woff"), url("TiemposHeadlineWeb-Bold.woff2") format("woff2")
+    src: url("/TiemposHeadlineWeb-Bold.eot");
+    src: url("/TiemposHeadlineWeb-Bold.eot?#iefix") format("embedded-opentype"), url("/TiemposHeadlineWeb-Bold.woff") format("woff"), url("/TiemposHeadlineWeb-Bold.woff2") format("woff2")
 }
