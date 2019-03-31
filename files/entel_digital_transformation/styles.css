@@ -30,7 +30,7 @@
   -moz-box-shadow:0px 0px 20px rgba(153, 153, 153, 0.349019607843137);
   -webkit-box-shadow:0px 0px 20px rgba(153, 153, 153, 0.349019607843137);
   box-shadow:0px 0px 20px rgba(153, 153, 153, 0.349019607843137);
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -42,7 +42,7 @@
   width:980px;
   height:310px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -75,7 +75,7 @@
   width:982px;
   height:1537px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -114,7 +114,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -129,7 +129,7 @@
   width:888px;
   height:352px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -254,7 +254,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -269,7 +269,7 @@
   width:888px;
   height:96px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -304,7 +304,7 @@
   width:104px;
   height:1px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -835,7 +835,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -850,7 +850,7 @@
   width:890px;
   height:672px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -929,7 +929,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -944,7 +944,7 @@
   width:890px;
   height:160px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -977,7 +977,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -992,7 +992,7 @@
   width:892px;
   height:256px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -1071,7 +1071,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -1086,7 +1086,7 @@
   width:888px;
   height:160px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -1167,7 +1167,7 @@
   width:1096px;
   height:625px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -1200,7 +1200,7 @@
   width:480px;
   height:722px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -1231,7 +1231,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1247,7 +1247,7 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1281,7 +1281,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1297,7 +1297,7 @@
   width:480px;
   height:32px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1333,7 +1333,7 @@
   width:980px;
   height:1761px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -1364,7 +1364,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1380,7 +1380,7 @@
   width:880px;
   height:32px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1416,7 +1416,7 @@
   width:980px;
   height:386px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -1447,7 +1447,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1463,7 +1463,7 @@
   width:980px;
   height:23px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1499,7 +1499,7 @@
   width:980px;
   height:386px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -1530,7 +1530,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1546,7 +1546,7 @@
   width:980px;
   height:23px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1582,7 +1582,7 @@
   width:430px;
   height:251px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -1615,7 +1615,7 @@
   width:534px;
   height:264px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -1646,7 +1646,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1662,7 +1662,7 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1698,7 +1698,7 @@
   width:980px;
   height:1685px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -1731,7 +1731,7 @@
   width:480px;
   height:721px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -1762,7 +1762,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1778,7 +1778,7 @@
   width:480px;
   height:32px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1812,7 +1812,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -1827,7 +1827,7 @@
   width:780px;
   height:128px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -1908,7 +1908,7 @@
   width:980px;
   height:672px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -1939,7 +1939,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1955,7 +1955,7 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -1991,7 +1991,7 @@
   width:980px;
   height:694px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -2022,7 +2022,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -2038,7 +2038,7 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -2072,7 +2072,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -2087,7 +2087,7 @@
   width:892px;
   height:128px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -2168,7 +2168,7 @@
   width:980px;
   height:1280px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -2199,7 +2199,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -2215,7 +2215,7 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -2251,7 +2251,7 @@
   width:980px;
   height:663px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -2282,7 +2282,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -2298,7 +2298,7 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -2332,7 +2332,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -2347,7 +2347,7 @@
   width:890px;
   height:96px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -2382,7 +2382,7 @@
   width:980px;
   height:1640px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
 }
@@ -2413,7 +2413,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -2429,7 +2429,7 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:14px;
@@ -2463,7 +2463,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
@@ -2478,7 +2478,7 @@
   width:890px;
   height:64px;
   display:flex;
-  font-family:'IBM Plex Mono Light';
+  font-family: 'IBM Plex Mono', monospace;
   font-weight:;
   font-style:;
   font-size:18px;
