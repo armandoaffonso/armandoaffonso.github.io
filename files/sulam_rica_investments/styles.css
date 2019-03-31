@@ -38,9 +38,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -53,9 +53,9 @@
   width:890px;
   height:128px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -86,9 +86,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -100,9 +100,9 @@
   width:281px;
   height:108px;
   display:flex;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -132,9 +132,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -146,9 +146,9 @@
   width:281px;
   height:108px;
   display:flex;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -178,9 +178,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -193,9 +193,9 @@
   width:890px;
   height:128px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -226,9 +226,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -241,9 +241,9 @@
   width:890px;
   height:256px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -274,9 +274,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -288,9 +288,9 @@
   width:281px;
   height:108px;
   display:flex;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -320,9 +320,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -335,9 +335,9 @@
   width:890px;
   height:160px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -368,9 +368,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -382,9 +382,9 @@
   width:312px;
   height:162px;
   display:flex;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -414,9 +414,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -430,9 +430,9 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -464,9 +464,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -479,9 +479,9 @@
   width:892px;
   height:128px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -514,9 +514,9 @@
   width:452px;
   height:340px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u400 .text {
   position:absolute;
@@ -547,9 +547,9 @@
   width:452px;
   height:340px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u401 .text {
   position:absolute;
@@ -580,9 +580,9 @@
   width:255px;
   height:340px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u402 .text {
   position:absolute;
@@ -611,9 +611,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -627,9 +627,9 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -661,9 +661,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -677,9 +677,9 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -711,9 +711,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -727,9 +727,9 @@
   width:980px;
   height:23px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -761,9 +761,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -776,9 +776,9 @@
   width:888px;
   height:160px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -809,9 +809,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -824,9 +824,9 @@
   width:888px;
   height:192px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -859,9 +859,9 @@
   width:979px;
   height:434px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u408 .text {
   position:absolute;
@@ -892,9 +892,9 @@
   width:980px;
   height:740px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u409 .text {
   position:absolute;
@@ -923,9 +923,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -939,9 +939,9 @@
   width:980px;
   height:32px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -973,9 +973,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -989,9 +989,9 @@
   width:965px;
   height:32px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -1025,9 +1025,9 @@
   width:980px;
   height:710px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u412 .text {
   position:absolute;
@@ -1058,9 +1058,9 @@
   width:980px;
   height:698px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u413 .text {
   position:absolute;
@@ -1089,9 +1089,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -1104,9 +1104,9 @@
   width:892px;
   height:128px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -1139,9 +1139,9 @@
   width:980px;
   height:710px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u415 .text {
   position:absolute;
@@ -1172,9 +1172,9 @@
   width:1202px;
   height:670px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u416 .text {
   position:absolute;
@@ -1203,9 +1203,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -1219,9 +1219,9 @@
   width:980px;
   height:23px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -1253,9 +1253,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -1268,9 +1268,9 @@
   width:890px;
   height:64px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:18px;
   color:#515151;
   line-height:32px;
@@ -1301,9 +1301,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -1315,9 +1315,9 @@
   width:192px;
   height:162px;
   display:flex;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -1349,9 +1349,9 @@
   width:1201px;
   height:473px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u420 .text {
   position:absolute;
@@ -1380,9 +1380,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -1396,9 +1396,9 @@
   width:980px;
   height:23px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:14px;
   color:#515151;
   text-align:center;
@@ -1432,9 +1432,9 @@
   width:980px;
   height:856px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
 }
 #u422 .text {
   position:absolute;
@@ -1463,9 +1463,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:64px;
   color:#232A39;
   text-align:center;
@@ -1479,9 +1479,9 @@
   width:980px;
   height:144px;
   display:flex;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:64px;
   color:#232A39;
   text-align:center;
@@ -1791,9 +1791,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:50px;
   color:#FFFFFF;
 }
@@ -1805,9 +1805,9 @@
   width:561px;
   height:75px;
   display:flex;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:50px;
   color:#FFFFFF;
 }

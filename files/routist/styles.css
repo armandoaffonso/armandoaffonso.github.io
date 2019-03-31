@@ -38,9 +38,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -52,9 +52,9 @@
   width:290px;
   height:108px;
   display:flex;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:36px;
   color:#414141;
 }
@@ -84,9 +84,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:64px;
   color:#232A39;
   text-align:center;
@@ -100,9 +100,9 @@
   width:980px;
   height:144px;
   display:flex;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:64px;
   color:#232A39;
   text-align:center;
@@ -412,9 +412,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:50px;
   color:#FFFFFF;
 }
@@ -426,9 +426,9 @@
   width:561px;
   height:75px;
   display:flex;
-  font-family:'Kanit-Medium', 'Kanit Medium';
-  font-weight:400;
-  font-style:normal;
+  font-family:'Kanit Medium';
+  font-weight:;
+  font-style:;
   font-size:50px;
   color:#FFFFFF;
 }
@@ -877,9 +877,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:16px;
   color:#232A39;
   line-height:26px;
@@ -892,9 +892,9 @@
   width:890px;
   height:78px;
   display:flex;
-  font-family:'IBMPlexMono-Light', 'IBM Plex Mono Light';
-  font-weight:400;
-  font-style:normal;
+  font-family:'IBM Plex Mono Light';
+  font-weight:;
+  font-style:;
   font-size:16px;
   color:#232A39;
   line-height:26px;
