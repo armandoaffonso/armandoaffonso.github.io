@@ -1384,7 +1384,7 @@ $axure.internal(function($ax) {
         var parentPanelInfo = getParentPanel(widgetId);
         if(parentPanelInfo) {
             var parentId = parentPanelInfo.parent;
-            _updateMobileScroll(parentId, parentPanelInfo.stateId, true);
+            _updateMobileScroll(parentId, parentPanelInfo.stateId);
             if(_updateFitPanel(parentId, parentPanelInfo.state)) _fitParentPanel(parentId);
             return;
         }
@@ -1404,7 +1404,7 @@ $axure.internal(function($ax) {
     };
     _dynamicPanelManager.fitParentPanel = _fitParentPanel;
 
-    var _updateMobileScroll = _dynamicPanelManager.updateMobileScroll = function (panelId, stateId, blockResetScroll) {
+    var _updateMobileScroll = _dynamicPanelManager.updateMobileScroll = function (panelId, stateId) {
         if (!panelId) return false;
 
         // Only update scroll if panel is scrollable
@@ -1413,10 +1413,10 @@ $axure.internal(function($ax) {
         if (!obj || obj.scrollbars.toLowerCase() == 'none') return false;
         
         var stateQuery = $jobj(stateId);
-        $ax.adaptive.removeNiceScroll(stateQuery, blockResetScroll);
+        $ax.adaptive.removeNiceScroll(stateQuery);
         
         //check if the page is in mobile mode
-        if(!$ax.adaptive.isDeviceMode() || MOBILE_DEVICE) {
+        if (!$ax.adaptive.isDeviceMode()) {
             stateQuery.css('cursor', '');
             return false;
         }
@@ -1436,7 +1436,7 @@ $axure.internal(function($ax) {
             $ax.adaptive.addNiceScroll(stateQuery, { touchbehavior: true, bouncescroll: false, grabcursorenabled: false, railmargin: { top: headerHeight, bottom: footerHeight }, scrollbarid: stateId + "-sb" });
             stateQuery.find('.nicescroll-rails').css('margin-top', headerHeight + 'px');
         } else {
-            $ax.adaptive.addNiceScroll(stateQuery, { emulatetouch: true, horizrailenabled: obj.scrollbars != 'verticalAsNeeded' }, blockResetScroll);
+            $ax.adaptive.addNiceScroll(stateQuery, { emulatetouch: true });
         }
         
         stateQuery.css('cursor', 'url(resources/css/images/touch.cur), auto');
@@ -1454,7 +1454,7 @@ $axure.internal(function($ax) {
         for (var i = scrollable.length - 1; i >= 0; i--) {
             var panelId = scrollable[i];
             var stateId = $ax.repeater.applySuffixToElementId(panelId, '_state0');
-            _updateMobileScroll(panelId, stateId, true);
+            _updateMobileScroll(panelId, stateId);
         }
     };
     

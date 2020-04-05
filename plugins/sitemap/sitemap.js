@@ -50,7 +50,8 @@ var openPreviousPage = $axure.player.openPreviousPage = function () {
         });
 
         generateSitemap();
-
+        var pageCount = $('.sitemapPageLink').length;
+        
         $('.leftArrow').click(openPreviousPage);
         $('.rightArrow').click(openNextPage);
 
@@ -76,10 +77,17 @@ var openPreviousPage = $axure.player.openPreviousPage = function () {
             $axure.player.setVarInCurrentUrlHash(PAGE_URL_NAME, currentNodeUrl.substring(0, currentNodeUrl.lastIndexOf('.html')));
 
             $('#sitemapTreeContainer').find('.sitemapHighlight').removeClass('sitemapHighlight');
-            $('.sitemapPageLink[nodeUrl="' + currentNodeUrl + '"]').parent().parent().addClass('sitemapHighlight');
+            var $currentNode = $('.sitemapPageLink[nodeUrl="' + currentNodeUrl + '"]');
+            $currentNode.parent().parent().addClass('sitemapHighlight');
 
             var pageName = $axure.page.pageName;
             $('.pageNameHeader').html(pageName);
+
+            if ($currentNode.length > 0 && pageCount > 1) {
+                var currentNode = $currentNode[0];
+                var currentNum = $('.sitemapPageLink').index(currentNode) + 1;
+                $('.pageCountHeader').html('(' + currentNum + ' of ' + pageCount + ')');
+            } else $('.pageCountHeader').html('');
 
             //If highlight var is present and set to 1 or else if
             //sitemap highlight button is selected then highlight interactive elements
@@ -147,7 +155,7 @@ var openPreviousPage = $axure.player.openPreviousPage = function () {
 
         var $vpContainer = $('#interfaceScaleListContainer');
         
-        var scaleOptions = '<div class="vpScaleOption" val="0"><div class="scaleRadioButton"><div class="selectedRadioButtonFill"></div></div>View at 100%</div>';
+        var scaleOptions = '<div class="vpScaleOption" val="0"><div class="scaleRadioButton"><div class="selectedRadioButtonFill"></div></div>Default Scale</div>';
         scaleOptions += '<div class="vpScaleOption" val="1"><div class="scaleRadioButton"><div class="selectedRadioButtonFill"></div></div>Scale to Width</div>';
         scaleOptions += '<div class="vpScaleOption" val="2"><div class="scaleRadioButton"><div class="selectedRadioButtonFill"></div></div>Scale to Fit</div>';
         $(scaleOptions).appendTo($vpContainer);
@@ -186,6 +194,12 @@ var openPreviousPage = $axure.player.openPreviousPage = function () {
         $('#searchBox').focusout();
     });
 
+    var _formatViewDimension = function(dim) {
+        if(dim == 0) return 'any';
+        if(dim.toString().includes('.')) return dim.toFixed(2);
+        return dim;
+    };
+
     function generateAdaptiveViews(forProjectOptions) {
         var $container = forProjectOptions ? $('#projectOptionsAdaptiveViewsContainer') : $('#interfaceAdaptiveViewsListContainer');
         var $viewSelect = forProjectOptions ? $('#projectOptionsViewSelect') : $('#viewSelect');
@@ -203,8 +217,9 @@ var openPreviousPage = $axure.player.openPreviousPage = function () {
             var defaultView = $axure.page.defaultAdaptiveView;
             var defaultViewName = defaultView.name;
 
-            var widthString = defaultView.size.width == 0 ? 'any' : defaultView.size.width;
-            var heightString = defaultView.size.height == 0 ? 'any' : defaultView.size.height;
+            var widthString = _formatViewDimension(defaultView.size.width);
+            var heightString = _formatViewDimension(defaultView.size.height);
+
             var viewString = defaultViewName + ' (' + widthString + ' x ' + heightString + ')';
 
             viewsList += '<div class="' + adaptiveViewOptionClass + ' ' + currentViewClass + '" val="default"data-dim="' + defaultView.size.width + 'x' + defaultView.size.height + '">' +
@@ -218,8 +233,8 @@ var openPreviousPage = $axure.player.openPreviousPage = function () {
             for(var viewIndex = 0; viewIndex < $axure.page.adaptiveViews.length; viewIndex++) {
                 var currView = $axure.page.adaptiveViews[viewIndex];
 
-                var widthString = currView.size.width == 0 ? 'any' : currView.size.width;
-                var heightString = currView.size.height == 0 ? 'any' : currView.size.height;
+                var widthString = _formatViewDimension(currView.size.width);
+                var heightString = _formatViewDimension(currView.size.height);
 
                 var viewString = currView.name + ' (' + widthString + ' x ' + heightString + ')';
                 viewsList += '<div class="' + adaptiveViewOptionClass +
@@ -262,6 +277,7 @@ var openPreviousPage = $axure.player.openPreviousPage = function () {
             });
         }
     }
+
 
     function collapse_click(event) {
         if($(this).children('.sitemapPlus').length > 0) {
@@ -523,6 +539,7 @@ var openPreviousPage = $axure.player.openPreviousPage = function () {
             allNodeUrls.push(node.url);
         }
         returnVal += "<span class='sitemapPageIcon";
+		if(node.type == "Flow"){ returnVal += " sitemapFlowIcon";}
         if(isFolder) { returnVal += " sitemapFolderIcon"; }
 
         returnVal += "'></span><span class='sitemapPageName'>";
